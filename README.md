@@ -1,1 +1,1 @@
-# Cadastro_IW-II
+# Criar uma aplicação utilizando Node.js e Express que permita realizar as operações CRUD em um bando de dados MySQL. Utilizar Controller e Views para as páginas HTML para interação do usuário do sistema. Faça uma aplicação para Cadastro de Clientes.
