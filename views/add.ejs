@@ -1,0 +1,19 @@
+<!-- views/add.ejs -->
+<html>
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <title>Adicionar Cliente</title>
+</head>
+<body>
+    <h1>Adicionar Cliente</h1>
+    <form action="/add" method="POST">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <button type="submit">Adicionar Cliente</button>
+    </form>
+    <br>
+    <a href="/">Voltar para Lista de Clientes</a>
+</body>
+</html>
